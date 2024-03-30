@@ -1,7 +1,7 @@
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
-
-document.getElementById(`searchForm`).addEventListener(`submit`, (evt) => {
+export function galleryHTTPRequest() {
+    document.getElementById(`searchForm`).addEventListener(`submit`, (evt) => {
     evt.preventDefault();
 
     const searchInputValue = document.getElementById(`searchInput`).value;
@@ -44,8 +44,10 @@ document.getElementById(`searchForm`).addEventListener(`submit`, (evt) => {
             });
         });
 });
+}
 
-// Implement the displayImages function to display the images
+
+
 
 
     
@@ -68,4 +70,3 @@ document.getElementById(`searchForm`).addEventListener(`submit`, (evt) => {
 
 
 
-}

@@ -1,3 +1,3 @@
-function displayImages(images) {
-    
-}
+export function galleryHTTPDisplay(){
+
+};
